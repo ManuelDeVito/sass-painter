@@ -1,0 +1,67 @@
+
+header {
+
+    background-color: $background-color-header;
+}
+
+.contenitore-header-top {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+
+    ul {
+        list-style-type: $puntini;
+    }
+        li {
+            display: $display;
+            padding: 0 10px;
+        }
+            li a span{
+            color: $color-button;
+            padding-right: 10px;
+            }
+                a {
+                text-decoration: $sottolineatura-not;
+                color: $color;
+                font-size: $font-header;
+
+                    &:hover {
+                        text-decoration: $sottolineatura;
+                        color: $color-testo
+                    }
+
+                }
+}
+
+.contenitore-header-bottom {
+    ul {
+
+        list-style-type: $puntini;
+
+        li img {
+            max-width: 120px;
+            padding: 0 15px;
+        }
+            li {
+                display: $display;
+                margin: 20px 20px;
+                text-decoration: $sottolineatura-not;
+                color: $color-testo;
+                font-size: $font-header;
+
+                .menu i {
+                    color: #878787;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    vertical-align: top;
+                }
+            }
+    }
+
+
+
+
+
+
+}

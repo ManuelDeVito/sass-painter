@@ -1,0 +1,131 @@
+footer {
+
+    background-color: $background-color-footer;
+}
+
+.contenitore-footer {
+    padding: 40px 20px 30px;
+    display: flex;
+
+}
+
+.riquadri {
+    padding: 0 15px;
+    width: 25%;
+
+        h3 {
+            font-size: $font-header;
+            color: #000000;
+            padding-bottom: 10px;
+        }
+            ul {
+                list-style-type: $puntini;
+            }
+                li {
+                    color: $color-footer;
+                    font-size: 14px;
+                    line-height: 26px;
+                        &:hover {
+                            text-decoration: $sottolineatura;
+                        }
+                }
+}
+
+.icone-social {
+
+        ul {
+            list-style-type: $puntini;
+            padding-top: 25px;
+
+
+            li {
+                display: $display;
+                padding: 0 2px;
+
+                a{
+                    display: $display;
+                    width: 35px;
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: $sottolineatura-not;
+
+                    i {
+                        font-size: 25px;
+                        color: $color-testo;
+
+                    }
+                }
+            }
+        }
+
+}
+
+.icone-social ul li .instagram {
+    background-color: #e54e67;
+}
+
+.icone-social ul li .facebook {
+    background-color: #3b5998;
+}
+
+.icone-social ul li .twitter {
+    background-color: #1da1f2;
+}
+
+.icone-social ul li .you-tube {
+    background-color: #cd201f;
+}
+
+.icone-social ul li .pinterest {
+    background-color: #bd081c;
+}
+
+.icone-social ul li .blog {
+    background-color: #ff8d00;
+}
+
+.contenitore-footer-bottom {
+    background-color: #1e1e1e;
+
+    .contenitore-riquadri {
+        display: flex;
+
+
+    }
+
+    .immagini {
+        width: 40%;
+        padding: 10px 0;
+        img {
+            padding: 0 13px;
+        }
+    }
+}
+
+.copyright {
+    width: 60%;
+    text-align: center;
+
+    ul {
+        padding: 25px 0 0 60px;
+        display: $display;
+        li {
+            padding: 0 10px;
+            display: $display;
+            color: #999;
+            font-size: 15px;
+
+            &:hover:not(:last-child) {
+                color: $color-testo;
+                text-decoration: $sottolineatura;
+            }
+
+            &:last-child {
+                padding-left: 20px;
+                color: $color-testo;
+            }
+        }
+    }
+}
