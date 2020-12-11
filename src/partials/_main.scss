@@ -1,0 +1,249 @@
+.contenitore-painter-buy {
+
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.contenitore-testo-software {
+    width: 65%;
+    padding-left: 280px;
+
+
+        h1 {
+            color: $color-testo;
+            font-size: $font-trenta;
+            padding-top: $font-cinquanta;
+        }
+            h3 {
+                color: $color-testo;
+                font-size: 23px;
+                padding-top: $font-venti;
+            }
+
+                ul {
+                    list-style-type: none;
+                    padding: $font-quindici 0 $font-trenta;
+
+                    li {
+                        color: $color-testo;
+                        font-size: 18px;
+                        padding: 5px 0;
+
+                        & i {
+                            color: $color;
+                        }
+                    }
+                }
+}
+
+.contenitore-testo-software .ciao {
+    background: #666;
+    color: $color-testo;
+    padding: $font-dieci $font-quindici;
+    margin-bottom: $font-sessanta;
+    width: 215px;
+    display: flex;
+
+
+        .download {
+            border-right: solid 1px $color-testo;
+            padding-right: $font-quindici;
+
+            & .trial {
+                text-transform: $maiuscolo;
+                font-size: $font-quindici;
+            }
+
+             & .for {
+                display: block;
+                text-transform: none;
+                margin-top: 5px;
+                font-size: $font-header;
+            }
+
+        }
+        .icona-download i {
+            position: relative;
+            top: 5px;
+            left: 8px;
+            font-size: $font-trenta;
+        }
+
+
+}
+
+.contenitore-nome-creatore {
+    position: relative;
+
+
+    & .nome-creatore .brandon {
+        position: absolute;
+        bottom: $font-venti;
+        left: -192px;
+        color: #ddd;
+        text-shadow: 1px 1px $color-titolo;
+        font-size: 13px;
+    }
+}
+
+.contenitore-buy-now {
+    width: 35%;
+    background-color: $color-black;
+    padding: $font-cinquanta $font-venti;
+    line-height: 1.5;
+    position: relative;
+    margin-top: $font-venti;
+
+    & img {
+        position: absolute;
+        top: $font-venti;
+        right: $font-dieci;
+    }
+
+        & span {
+            color: $font-header;
+            font-size: $font-trenta;
+        }
+
+         & p {
+            color: #999999;
+            font-size: $font-quindici;
+            text-transform: $maiuscolo;
+        }
+
+        & button {
+            background-color: #009CFF;
+            padding: $font-dieci $font-quaranta;
+            font-size: $font-quindici;
+            color: $font-header;
+            margin: $font-venti 6px 12px 0;
+            border: none;
+            text-transform: $maiuscolo;
+        }
+
+        & .contenitore-limited {
+
+            background-color: $color-testo;
+            padding: $font-dieci $font-quindici;
+            margin-top: $font-trentacinque;
+
+            & h1 {
+                text-transform: $maiuscolo;
+                font-size: 18px;
+                color: #2C2C2C;
+            }
+
+            & p {
+                font-size: $font-header;
+                text-transform: none;
+                color: $color-titolo;
+
+            }
+
+            & a {
+                text-decoration: none;
+                color: #009CFF;
+                font-size: $font-header;
+
+            }
+        }
+}
+
+.contenitore-secondo-menu {
+    background-color: #E6E6E6;
+
+    .contenitore-lista {
+
+
+        & ul {
+            list-style-type: none;
+            display: flex;
+
+            li {
+                text-transform: uppercase;
+                font-size: $font-venti;
+                color: $color-black;
+                padding: $font-venti $font-venticinque;
+            }
+        }
+        .first {
+            background-color: $color-testo;
+            border-bottom: 3px solid $color-black;
+        }
+    }
+}
+
+.contenitore-donna-computer {
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.contenitore-testo-img {
+    text-align: center;
+    padding-top: 80px;
+    width: 90%;
+    margin: auto;
+
+    & h1 {
+        color: $color-testo;
+        font-size: $font-quaranta;
+        margin: $font-venti 0 10px 0;
+    }
+
+        & p {
+            font-size: 23px;
+            margin: $font-venti 0 $font-quaranta 0;
+            color: $color-testo;
+        }
+        .logo-test {
+            margin-bottom: $font-sessanta;
+        }
+        & .logo-test img {
+            width: $font-quaranta;
+            margin-right: $font-venti;
+        }
+        & .logo-test span {
+            color: $color-testo;
+            font-size: $font-venti;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: $font-dieci;
+        }
+
+}
+
+.contenitore-img-donna {
+    position: relative;
+
+
+        & img {
+            width: 100%;
+            height: 103%;
+            vertical-align: middle;
+            border-style: none;
+        }
+
+        & img:last-of-type {
+            position: absolute;
+            margin: 0 $margin;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            bottom: 0;
+
+        }
+
+        & .play {
+            background-image: url(https://www.painterartist.com/static/ptr/images/icons/ico-play-circle-white.png);
+            width: 110px;
+            height: 110px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+}

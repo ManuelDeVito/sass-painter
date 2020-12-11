@@ -9,6 +9,10 @@
   margin: auto;
 }
 
+.contenitore-riquadri {
+  display: flex;
+}
+
 header {
   background-color: #101010;
 }
@@ -155,10 +159,6 @@ footer {
   background-color: #1e1e1e;
 }
 
-.contenitore-footer-bottom .contenitore-riquadri {
-  display: flex;
-}
-
 .contenitore-footer-bottom .immagini {
   width: 40%;
   padding: 10px 0;
@@ -193,5 +193,242 @@ footer {
 .copyright ul li:last-child {
   padding-left: 20px;
   color: #FFFFFF;
+}
+
+.contenitore-painter-buy {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.contenitore-testo-software {
+  width: 65%;
+  padding-left: 280px;
+}
+
+.contenitore-testo-software h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.contenitore-testo-software h3 {
+  color: #FFFFFF;
+  font-size: 23px;
+  padding-top: 20px;
+}
+
+.contenitore-testo-software ul {
+  list-style-type: none;
+  padding: 15px 0 30px;
+}
+
+.contenitore-testo-software ul li {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.contenitore-testo-software ul li i {
+  color: #989898;
+}
+
+.contenitore-testo-software .ciao {
+  background: #666;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  margin-bottom: 60px;
+  width: 215px;
+  display: flex;
+}
+
+.contenitore-testo-software .ciao .download {
+  border-right: solid 1px #FFFFFF;
+  padding-right: 15px;
+}
+
+.contenitore-testo-software .ciao .download .trial {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contenitore-testo-software .ciao .download .for {
+  display: block;
+  text-transform: none;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.contenitore-testo-software .ciao .icona-download i {
+  position: relative;
+  top: 5px;
+  left: 8px;
+  font-size: 30px;
+}
+
+.contenitore-nome-creatore {
+  position: relative;
+}
+
+.contenitore-nome-creatore .nome-creatore .brandon {
+  position: absolute;
+  bottom: 20px;
+  left: -192px;
+  color: #ddd;
+  text-shadow: 1px 1px #333333;
+  font-size: 13px;
+}
+
+.contenitore-buy-now {
+  width: 35%;
+  background-color: #000000;
+  padding: 50px 20px;
+  line-height: 1.5;
+  position: relative;
+  margin-top: 20px;
+}
+
+.contenitore-buy-now img {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.contenitore-buy-now span {
+  color: 16px;
+  font-size: 30px;
+}
+
+.contenitore-buy-now p {
+  color: #999999;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contenitore-buy-now button {
+  background-color: #009CFF;
+  padding: 10px 40px;
+  font-size: 15px;
+  color: 16px;
+  margin: 20px 6px 12px 0;
+  border: none;
+  text-transform: uppercase;
+}
+
+.contenitore-buy-now .contenitore-limited {
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+  margin-top: 35px;
+}
+
+.contenitore-buy-now .contenitore-limited h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #2C2C2C;
+}
+
+.contenitore-buy-now .contenitore-limited p {
+  font-size: 16px;
+  text-transform: none;
+  color: #333333;
+}
+
+.contenitore-buy-now .contenitore-limited a {
+  text-decoration: none;
+  color: #009CFF;
+  font-size: 16px;
+}
+
+.contenitore-secondo-menu {
+  background-color: #E6E6E6;
+}
+
+.contenitore-secondo-menu .contenitore-lista ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.contenitore-secondo-menu .contenitore-lista ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000000;
+  padding: 20px 25px;
+}
+
+.contenitore-secondo-menu .contenitore-lista .first {
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #000000;
+}
+
+.contenitore-donna-computer {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.contenitore-testo-img {
+  text-align: center;
+  padding-top: 80px;
+  width: 90%;
+  margin: auto;
+}
+
+.contenitore-testo-img h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  margin: 20px 0 10px 0;
+}
+
+.contenitore-testo-img p {
+  font-size: 23px;
+  margin: 20px 0 40px 0;
+  color: #FFFFFF;
+}
+
+.contenitore-testo-img .logo-test {
+  margin-bottom: 60px;
+}
+
+.contenitore-testo-img .logo-test img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.contenitore-testo-img .logo-test span {
+  color: #FFFFFF;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.contenitore-img-donna {
+  position: relative;
+}
+
+.contenitore-img-donna img {
+  width: 100%;
+  height: 103%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.contenitore-img-donna img:last-of-type {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  bottom: 0;
+}
+
+.contenitore-img-donna .play {
+  background-image: url(https://www.painterartist.com/static/ptr/images/icons/ico-play-circle-white.png);
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 

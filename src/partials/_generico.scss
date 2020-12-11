@@ -7,4 +7,9 @@
 .contenitore {
     width: $width-contenitore;
     margin: $margin;
+
+}
+
+.contenitore-riquadri {
+    display: flex;
 }
