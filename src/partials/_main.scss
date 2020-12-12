@@ -12,13 +12,12 @@
 
         h1 {
             color: $color-testo;
-            font-size: $font-dieci * 3;
             padding-top: $font-dieci * 5;
         }
 
         h3 {
             color: $color-testo;
-            font-size: 23px;
+            font-size: $font-paragrafi;
             padding-top: $font-dieci * 2;
         }
 
@@ -28,7 +27,7 @@
 
                 li {
                     color: $color-testo;
-                    font-size: 18px;
+                    font-size: $font-diciotto;
                     padding: 5px 0;
 
                     & i {
@@ -51,6 +50,7 @@
         .download {
             border-right: solid 1px $color-testo;
             padding-right: $font-quindici;
+            display: $display;
 
             & .trial {
                 text-transform: $maiuscolo;
@@ -109,10 +109,11 @@
         font-size: $font-dieci * 3;
     }
 
-    & p {
+    & .load {
         color: $color-footer;
         font-size: $font-quindici;
         text-transform: $maiuscolo;
+        display: block;
     }
 
     & button {
@@ -131,13 +132,13 @@
         padding: $font-dieci $font-quindici;
         margin-top: $font-trentacinque;
 
-            & h1 {
+            & h4 {
                 text-transform: $maiuscolo;
-                font-size: 18px;
+                font-size: $font-diciotto;
                 color: $color-black;
             }
 
-            & p {
+            & span {
                 font-size: $font-sedici;
                 text-transform: none;
                 color: $color-footer;
@@ -148,6 +149,7 @@
                 text-decoration: none;
                 color:$color-button;
                 font-size: $font-sedici;
+                display: block;
 
             }
     }
@@ -191,14 +193,14 @@
     width: 90%;
     margin: auto;
 
-    & h1 {
+    & h2 {
         color: $color-testo;
         font-size: $font-dieci * 4;
         margin: $font-dieci * 2 0 $font-dieci 0;
     }
 
         & p {
-            font-size: 23px;
+            font-size: $font-paragrafi;
             margin: $font-dieci * 2 0 $font-dieci * 4 0;
             color: $color-testo;
         }
@@ -268,7 +270,7 @@
         }
 
         & p {
-            font-size: 23px;
+            font-size: $font-paragrafi;
             padding: $font-dieci * 2 $font-dieci * 7;
         }
 }

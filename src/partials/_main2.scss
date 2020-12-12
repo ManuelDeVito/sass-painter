@@ -1,0 +1,83 @@
+.contenitore-flexible {
+
+    background-color: #222222;
+
+    .contenitore-text-painting {
+
+        text-align: center;
+        color: $color-testo;
+
+        & h2 {
+            padding-top: $font-dieci * 15;
+        }
+
+        & p {
+            padding: $font-dieci * 2 $font-dieci * 5;
+        }
+        & img {
+            width: 70%;
+            padding-top: $font-dieci * 10;
+        }
+    }
+}
+
+.contenitore-mago {
+    padding-top: $font-dieci * 15;
+    display: flex;
+
+    .testo-mago {
+        width: 40%;
+        color: $color-testo;
+
+        & h3 {
+            font-size: 28px;
+            padding-top: $font-dieci * 12;
+        }
+
+        & p {
+            padding: $font-dieci * 2 45px $font-dieci * 2 0;
+
+        }
+
+
+
+    }
+
+    .mago {
+        width: 60%;
+
+        & img {
+            width: 100%;
+            padding-left: $font-dieci * 5;
+        }
+    }
+}
+
+.contenitore-mac {
+    padding: $font-dieci * 15 0 $font-dieci * 10;
+    display: flex;
+
+    .mac {
+        width: 60%;
+
+        & img {
+            width: 100%;
+            padding-right: $font-dieci * 5;
+        }
+    }
+
+    .testo-mac {
+        width: 40%;
+        color: $color-testo;
+
+        & h3 {
+            font-size: 28px;
+            padding-top: $font-dieci * 12;
+        }
+
+        & p {
+            padding: $font-dieci * 2 0;
+
+        }
+    }
+}

@@ -13,3 +13,15 @@
 .contenitore-riquadri {
     display: flex;
 }
+
+h2 {
+    font-size: $font-dieci * 4;
+}
+
+h1, h3 {
+    font-size: $font-dieci * 3
+}
+
+p {
+    font-size: $font-paragrafi;
+}

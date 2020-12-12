@@ -13,6 +13,19 @@
   display: flex;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+h1,
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 23px;
+}
+
 header {
   background-color: #4D4D4D;
 }
@@ -207,7 +220,6 @@ footer {
 
 .contenitore-testo-software h1 {
   color: #FFFFFF;
-  font-size: 30px;
   padding-top: 50px;
 }
 
@@ -244,6 +256,7 @@ footer {
 .contenitore-testo-software .download-trial .download {
   border-right: solid 1px #FFFFFF;
   padding-right: 15px;
+  display: inline-block;
 }
 
 .contenitore-testo-software .download-trial .download .trial {
@@ -297,10 +310,11 @@ footer {
   font-size: 30px;
 }
 
-.contenitore-buy-now p {
+.contenitore-buy-now .load {
   color: #4D4D4D;
   font-size: 15px;
   text-transform: uppercase;
+  display: block;
 }
 
 .contenitore-buy-now button {
@@ -319,13 +333,13 @@ footer {
   margin-top: 35px;
 }
 
-.contenitore-buy-now .contenitore-limited h1 {
+.contenitore-buy-now .contenitore-limited h4 {
   text-transform: uppercase;
   font-size: 18px;
   color: #000000;
 }
 
-.contenitore-buy-now .contenitore-limited p {
+.contenitore-buy-now .contenitore-limited span {
   font-size: 16px;
   text-transform: none;
   color: #4D4D4D;
@@ -335,6 +349,7 @@ footer {
   text-decoration: none;
   color: #009CFF;
   font-size: 16px;
+  display: block;
 }
 
 .contenitore-secondo-menu {
@@ -371,7 +386,7 @@ footer {
   margin: auto;
 }
 
-.contenitore-testo-img h1 {
+.contenitore-testo-img h2 {
   color: #FFFFFF;
   font-size: 40px;
   margin: 20px 0 10px 0;
@@ -463,5 +478,83 @@ footer {
 .immagine-aquila img {
   width: 90%;
   margin: 80px 0 60px 0;
+}
+
+.contenitore-flexible {
+  background-color: #222222;
+}
+
+.contenitore-flexible .contenitore-text-painting {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contenitore-flexible .contenitore-text-painting h2 {
+  padding-top: 150px;
+}
+
+.contenitore-flexible .contenitore-text-painting p {
+  padding: 20px 50px;
+}
+
+.contenitore-flexible .contenitore-text-painting img {
+  width: 70%;
+  padding-top: 100px;
+}
+
+.contenitore-mago {
+  padding-top: 150px;
+  display: flex;
+}
+
+.contenitore-mago .testo-mago {
+  width: 40%;
+  color: #FFFFFF;
+}
+
+.contenitore-mago .testo-mago h3 {
+  font-size: 28px;
+  padding-top: 120px;
+}
+
+.contenitore-mago .testo-mago p {
+  padding: 20px 45px 20px 0;
+}
+
+.contenitore-mago .mago {
+  width: 60%;
+}
+
+.contenitore-mago .mago img {
+  width: 100%;
+  padding-left: 50px;
+}
+
+.contenitore-mac {
+  padding: 150px 0 100px;
+  display: flex;
+}
+
+.contenitore-mac .mac {
+  width: 60%;
+}
+
+.contenitore-mac .mac img {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.contenitore-mac .testo-mac {
+  width: 40%;
+  color: #FFFFFF;
+}
+
+.contenitore-mac .testo-mac h3 {
+  font-size: 28px;
+  padding-top: 120px;
+}
+
+.contenitore-mac .testo-mac p {
+  padding: 20px 0;
 }
 
