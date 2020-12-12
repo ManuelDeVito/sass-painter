@@ -430,3 +430,38 @@ footer {
   transform: translate(-50%, -50%);
 }
 
+.contenitore-aquila {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
+}
+
+.contenitore-aquila h2 {
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.contenitore-aquila p {
+  font-size: 23px;
+  padding: 20px 70px;
+}
+
+.immagine-aquila .arrow {
+  position: relative;
+  bottom: 390px;
+  font-size: 40px;
+}
+
+.immagine-aquila .arrow-left {
+  right: 30px;
+}
+
+.immagine-aquila .arrow-right {
+  left: 30px;
+}
+
+.immagine-aquila img {
+  width: 90%;
+  margin: 80px 0 60px 0;
+}
+

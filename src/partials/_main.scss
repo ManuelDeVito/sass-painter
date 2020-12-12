@@ -255,3 +255,42 @@
         }
 
 }
+
+.contenitore-aquila {
+
+    background-color: $color-testo;
+    color: $color-black;
+    text-align: center;
+
+        & h2 {
+            font-size: $font-dieci * 4;
+            padding-top: $font-dieci * 10;
+        }
+
+        & p {
+            font-size: 23px;
+            padding: $font-dieci * 2 $font-dieci * 7;
+        }
+}
+
+.immagine-aquila {
+
+    .arrow {
+        position: relative;
+        bottom: 390px;
+        font-size: $font-dieci * 4;
+    }
+
+    .arrow-left {
+        right: $font-dieci * 3;
+    }
+
+    .arrow-right {
+        left: $font-dieci * 3;
+    }
+
+    & img {
+        width: 90%;
+        margin: $font-dieci * 8 0 $font-dieci * 6 0;
+    }
+}
