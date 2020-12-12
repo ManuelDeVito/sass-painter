@@ -81,3 +81,47 @@
         }
     }
 }
+
+.sfondo-quadrati-generale {
+
+    background-color: $color-testo;
+
+    .contenitore-quadrati {
+        max-width: 1600px;
+        margin: $margin;
+    }
+
+    .contenitore-quadrati-titolo {
+        text-align: center;
+        padding-top: $font-dieci * 12;
+    }
+
+    .contenitore-riquadri {
+
+        padding: $font-dieci * 8 0;
+
+    }
+
+    .quadrati {
+        position: relative;
+
+        & img {
+            max-width: $font-dieci * 30;
+        }
+
+        &:not(:last-child) {
+            margin-right: $font-dieci * 2;
+        }
+
+        .text-img {
+            font-size: 23px;
+            color: $color-testo;
+            position: absolute;
+            bottom: $font-venticinque;
+            width: 100%;
+            text-align: center;
+
+
+        }
+    }
+}

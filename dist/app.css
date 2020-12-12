@@ -558,3 +558,42 @@ footer {
   padding: 20px 0;
 }
 
+.sfondo-quadrati-generale {
+  background-color: #FFFFFF;
+}
+
+.sfondo-quadrati-generale .contenitore-quadrati {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.sfondo-quadrati-generale .contenitore-quadrati-titolo {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.sfondo-quadrati-generale .contenitore-riquadri {
+  padding: 80px 0;
+}
+
+.sfondo-quadrati-generale .quadrati {
+  position: relative;
+}
+
+.sfondo-quadrati-generale .quadrati img {
+  max-width: 300px;
+}
+
+.sfondo-quadrati-generale .quadrati:not(:last-child) {
+  margin-right: 20px;
+}
+
+.sfondo-quadrati-generale .quadrati .text-img {
+  font-size: 23px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
