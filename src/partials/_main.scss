@@ -6,42 +6,44 @@
 }
 
 .contenitore-testo-software {
+
     width: 65%;
     padding-left: 280px;
 
-
         h1 {
             color: $color-testo;
-            font-size: $font-trenta;
-            padding-top: $font-cinquanta;
+            font-size: $font-dieci * 3;
+            padding-top: $font-dieci * 5;
         }
-            h3 {
-                color: $color-testo;
-                font-size: 23px;
-                padding-top: $font-venti;
-            }
 
-                ul {
-                    list-style-type: none;
-                    padding: $font-quindici 0 $font-trenta;
+        h3 {
+            color: $color-testo;
+            font-size: 23px;
+            padding-top: $font-dieci * 2;
+        }
 
-                    li {
-                        color: $color-testo;
-                        font-size: 18px;
-                        padding: 5px 0;
+            ul {
+                list-style-type: none;
+                padding: $font-quindici 0 $font-dieci * 2;
 
-                        & i {
-                            color: $color;
-                        }
+                li {
+                    color: $color-testo;
+                    font-size: 18px;
+                    padding: 5px 0;
+
+                    & i {
+                            color: $color-testo;
                     }
                 }
+            }
 }
 
-.contenitore-testo-software .ciao {
-    background: #666;
+.contenitore-testo-software .download-trial {
+
+    background-color: $color-black;
     color: $color-testo;
     padding: $font-dieci $font-quindici;
-    margin-bottom: $font-sessanta;
+    margin-bottom: $font-dieci * 6;
     width: 215px;
     display: flex;
 
@@ -55,19 +57,20 @@
                 font-size: $font-quindici;
             }
 
-             & .for {
+            & .for {
                 display: block;
                 text-transform: none;
                 margin-top: 5px;
-                font-size: $font-header;
+                font-size: $font-sedici;
             }
 
         }
+
         .icona-download i {
             position: relative;
             top: 5px;
             left: 8px;
-            font-size: $font-trenta;
+            font-size: $font-dieci * 3;
         }
 
 
@@ -79,82 +82,82 @@
 
     & .nome-creatore .brandon {
         position: absolute;
-        bottom: $font-venti;
+        bottom: $font-dieci * 2;
         left: -192px;
-        color: #ddd;
-        text-shadow: 1px 1px $color-titolo;
+        color: $color-testo;
         font-size: 13px;
     }
 }
 
 .contenitore-buy-now {
+
     width: 35%;
     background-color: $color-black;
-    padding: $font-cinquanta $font-venti;
+    padding: $font-dieci * 5 $font-dieci * 2;
     line-height: 1.5;
     position: relative;
-    margin-top: $font-venti;
+    margin-top: $font-dieci * 2;
 
     & img {
         position: absolute;
-        top: $font-venti;
+        top: $font-dieci * 2;
         right: $font-dieci;
     }
 
-        & span {
-            color: $font-header;
-            font-size: $font-trenta;
-        }
+    & span {
+        color: $color-testo;
+        font-size: $font-dieci * 3;
+    }
 
-         & p {
-            color: #999999;
-            font-size: $font-quindici;
-            text-transform: $maiuscolo;
-        }
+    & p {
+        color: $color-footer;
+        font-size: $font-quindici;
+        text-transform: $maiuscolo;
+    }
 
-        & button {
-            background-color: #009CFF;
-            padding: $font-dieci $font-quaranta;
-            font-size: $font-quindici;
-            color: $font-header;
-            margin: $font-venti 6px 12px 0;
-            border: none;
-            text-transform: $maiuscolo;
-        }
+    & button {
+        background-color: #009CFF;
+        padding: $font-dieci $font-dieci * 4;
+        font-size: $font-quindici;
+        color: $font-sedici;
+        margin: $font-dieci * 2 6px 12px 0;
+        border: none;
+        text-transform: $maiuscolo;
+    }
 
-        & .contenitore-limited {
+    & .contenitore-limited {
 
-            background-color: $color-testo;
-            padding: $font-dieci $font-quindici;
-            margin-top: $font-trentacinque;
+        background-color: $color-testo;
+        padding: $font-dieci $font-quindici;
+        margin-top: $font-trentacinque;
 
             & h1 {
                 text-transform: $maiuscolo;
                 font-size: 18px;
-                color: #2C2C2C;
+                color: $color-black;
             }
 
             & p {
-                font-size: $font-header;
+                font-size: $font-sedici;
                 text-transform: none;
-                color: $color-titolo;
+                color: $color-footer;
 
             }
 
             & a {
                 text-decoration: none;
-                color: #009CFF;
-                font-size: $font-header;
+                color:$color-button;
+                font-size: $font-sedici;
 
             }
-        }
+    }
 }
 
 .contenitore-secondo-menu {
-    background-color: #E6E6E6;
+
+    background-color: $color-footer;
 
     .contenitore-lista {
-
 
         & ul {
             list-style-type: none;
@@ -162,25 +165,27 @@
 
             li {
                 text-transform: uppercase;
-                font-size: $font-venti;
-                color: $color-black;
-                padding: $font-venti $font-venticinque;
+                font-size: $font-dieci * 2;
+                color: $color-testo;
+                padding: $font-dieci * 2 $font-venticinque;
             }
         }
         .first {
-            background-color: $color-testo;
-            border-bottom: 3px solid $color-black;
+            background-color: $color-black;
+            border-bottom: 3px solid $color-testo;
         }
     }
 }
 
 .contenitore-donna-computer {
+
     background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
     background-position: top;
     background-size: cover;
 }
 
 .contenitore-testo-img {
+
     text-align: center;
     padding-top: 80px;
     width: 90%;
@@ -188,25 +193,28 @@
 
     & h1 {
         color: $color-testo;
-        font-size: $font-quaranta;
-        margin: $font-venti 0 10px 0;
+        font-size: $font-dieci * 4;
+        margin: $font-dieci * 2 0 $font-dieci 0;
     }
 
         & p {
             font-size: 23px;
-            margin: $font-venti 0 $font-quaranta 0;
+            margin: $font-dieci * 2 0 $font-dieci * 4 0;
             color: $color-testo;
         }
+
         .logo-test {
-            margin-bottom: $font-sessanta;
+            margin-bottom: $font-dieci * 6;
         }
+
         & .logo-test img {
-            width: $font-quaranta;
-            margin-right: $font-venti;
+            width: $font-dieci * 4;
+            margin-right: $font-dieci * 2;
         }
+
         & .logo-test span {
             color: $color-testo;
-            font-size: $font-venti;
+            font-size: $font-dieci * 2;
             display: inline-block;
             vertical-align: top;
             margin-top: $font-dieci;

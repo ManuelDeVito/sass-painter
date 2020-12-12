@@ -1,10 +1,10 @@
 footer {
 
-    background-color: $background-color-footer;
+    background-color: $color-footer;
 }
 
 .contenitore-footer {
-    padding: $font-quaranta $font-venti $font-trenta;
+    padding: $font-dieci * 4 $font-dieci * 2 $font-dieci * 3;
     display: flex;
 
 }
@@ -14,15 +14,15 @@ footer {
     width: 25%;
 
         h3 {
-            font-size: $font-header;
-            color: #000000;
+            font-size: $font-sedici;
+            color: $color-black;
             padding-bottom: $font-dieci;
         }
             ul {
                 list-style-type: $puntini;
             }
                 li {
-                    color: $color-footer;
+                    color: $color-testo;
                     font-size: 14px;
                     line-height: 26px;
                         &:hover {
@@ -87,7 +87,7 @@ footer {
 }
 
 .contenitore-footer-bottom {
-    background-color: #1e1e1e;
+    background-color: $color-black;
 
     .immagini {
         width: 40%;
@@ -103,12 +103,12 @@ footer {
     text-align: center;
 
     ul {
-        padding: $font-venticinque 0 0 $font-sessanta;
+        padding: $font-venticinque 0 0 $font-dieci * 6;
         display: $display;
         li {
             padding: 0 $font-dieci;
             display: $display;
-            color: #999;
+            color: $color-footer;
             font-size: $font-quindici;
 
             &:hover:not(:last-child) {
@@ -117,7 +117,7 @@ footer {
             }
 
             &:last-child {
-                padding-left: $font-venti;
+                padding-left: $font-dieci * 2;
                 color: $color-testo;
             }
         }

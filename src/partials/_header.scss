@@ -1,7 +1,7 @@
 
 header {
 
-    background-color: $background-color-header;
+    background-color: $color-footer;
 }
 
 .contenitore-header-top {
@@ -17,24 +17,26 @@ header {
             display: $display;
             padding: 0 $font-dieci;
         }
-            li a span{
-            color: $color-button;
-            padding-right: $font-dieci;
+            li a span {
+                color: $color-button;
+                padding-right: $font-dieci;
             }
-                a {
+
+            a {
                 text-decoration: $sottolineatura-not;
-                color: $color;
-                font-size: $font-header;
+                color: $color-testo;
+                font-size: $font-sedici;
 
                     &:hover {
                         text-decoration: $sottolineatura;
                         color: $color-testo;
                     }
 
-                }
+            }
 }
 
 .contenitore-header-bottom {
+
     ul {
 
         list-style-type: $puntini;
@@ -42,26 +44,21 @@ header {
         li img {
             max-width: 120px;
             padding: 0 $font-quindici;
+
         }
-            li {
-                display: $display;
-                margin: $font-venti $font-venti;
-                text-decoration: $sottolineatura-not;
-                color: $color-testo;
-                font-size: $font-header;
 
-                .menu i {
-                    color: #878787;
-                    font-size: 14px;
+        li {
+            display: $display;
+            margin: $font-dieci * 2 $font-dieci * 2;
+            text-decoration: $sottolineatura-not;
+            color: $color-testo;
+            font-size: $font-sedici;
+
+                & .fa-angle-down {
+                    font-size: $font-sedici;
                     line-height: 1.5;
-                    vertical-align: top;
+                    vertical-align: middle;
                 }
-            }
+        }
     }
-
-
-
-
-
-
 }

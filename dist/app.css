@@ -14,7 +14,7 @@
 }
 
 header {
-  background-color: #101010;
+  background-color: #4D4D4D;
 }
 
 .contenitore-header-top {
@@ -39,7 +39,7 @@ header {
 
 .contenitore-header-top a {
   text-decoration: none;
-  color: #989898;
+  color: #FFFFFF;
   font-size: 16px;
 }
 
@@ -65,15 +65,14 @@ header {
   font-size: 16px;
 }
 
-.contenitore-header-bottom ul li .menu i {
-  color: #878787;
-  font-size: 14px;
+.contenitore-header-bottom ul li .fa-angle-down {
+  font-size: 16px;
   line-height: 1.5;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 footer {
-  background-color: #ececec;
+  background-color: #4D4D4D;
 }
 
 .contenitore-footer {
@@ -97,7 +96,7 @@ footer {
 }
 
 .riquadri li {
-  color: #4D4D4D;
+  color: #FFFFFF;
   font-size: 14px;
   line-height: 26px;
 }
@@ -156,7 +155,7 @@ footer {
 }
 
 .contenitore-footer-bottom {
-  background-color: #1e1e1e;
+  background-color: #000000;
 }
 
 .contenitore-footer-bottom .immagini {
@@ -181,7 +180,7 @@ footer {
 .copyright ul li {
   padding: 0 10px;
   display: inline-block;
-  color: #999;
+  color: #4D4D4D;
   font-size: 15px;
 }
 
@@ -220,7 +219,7 @@ footer {
 
 .contenitore-testo-software ul {
   list-style-type: none;
-  padding: 15px 0 30px;
+  padding: 15px 0 20px;
 }
 
 .contenitore-testo-software ul li {
@@ -230,11 +229,11 @@ footer {
 }
 
 .contenitore-testo-software ul li i {
-  color: #989898;
+  color: #FFFFFF;
 }
 
-.contenitore-testo-software .ciao {
-  background: #666;
+.contenitore-testo-software .download-trial {
+  background-color: #000000;
   color: #FFFFFF;
   padding: 10px 15px;
   margin-bottom: 60px;
@@ -242,24 +241,24 @@ footer {
   display: flex;
 }
 
-.contenitore-testo-software .ciao .download {
+.contenitore-testo-software .download-trial .download {
   border-right: solid 1px #FFFFFF;
   padding-right: 15px;
 }
 
-.contenitore-testo-software .ciao .download .trial {
+.contenitore-testo-software .download-trial .download .trial {
   text-transform: uppercase;
   font-size: 15px;
 }
 
-.contenitore-testo-software .ciao .download .for {
+.contenitore-testo-software .download-trial .download .for {
   display: block;
   text-transform: none;
   margin-top: 5px;
   font-size: 16px;
 }
 
-.contenitore-testo-software .ciao .icona-download i {
+.contenitore-testo-software .download-trial .icona-download i {
   position: relative;
   top: 5px;
   left: 8px;
@@ -274,8 +273,7 @@ footer {
   position: absolute;
   bottom: 20px;
   left: -192px;
-  color: #ddd;
-  text-shadow: 1px 1px #333333;
+  color: #FFFFFF;
   font-size: 13px;
 }
 
@@ -295,12 +293,12 @@ footer {
 }
 
 .contenitore-buy-now span {
-  color: 16px;
+  color: #FFFFFF;
   font-size: 30px;
 }
 
 .contenitore-buy-now p {
-  color: #999999;
+  color: #4D4D4D;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -324,13 +322,13 @@ footer {
 .contenitore-buy-now .contenitore-limited h1 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #2C2C2C;
+  color: #000000;
 }
 
 .contenitore-buy-now .contenitore-limited p {
   font-size: 16px;
   text-transform: none;
-  color: #333333;
+  color: #4D4D4D;
 }
 
 .contenitore-buy-now .contenitore-limited a {
@@ -340,7 +338,7 @@ footer {
 }
 
 .contenitore-secondo-menu {
-  background-color: #E6E6E6;
+  background-color: #4D4D4D;
 }
 
 .contenitore-secondo-menu .contenitore-lista ul {
@@ -351,13 +349,13 @@ footer {
 .contenitore-secondo-menu .contenitore-lista ul li {
   text-transform: uppercase;
   font-size: 20px;
-  color: #000000;
+  color: #FFFFFF;
   padding: 20px 25px;
 }
 
 .contenitore-secondo-menu .contenitore-lista .first {
-  background-color: #FFFFFF;
-  border-bottom: 3px solid #000000;
+  background-color: #000000;
+  border-bottom: 3px solid #FFFFFF;
 }
 
 .contenitore-donna-computer {
