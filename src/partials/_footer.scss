@@ -23,8 +23,8 @@ footer {
             }
                 li {
                     color: $color-testo;
-                    font-size: 14px;
-                    line-height: 26px;
+                    font-size: $font-quindici - 1;
+                    line-height: $font-venticinque + 1;
                         &:hover {
                             text-decoration: $sottolineatura;
                         }
@@ -93,7 +93,7 @@ footer {
         width: 40%;
         padding: $font-dieci 0;
         img {
-            padding: 0 13px;
+            padding: 0 $font-dieci + 3;
         }
     }
 }

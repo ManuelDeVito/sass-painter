@@ -14,14 +14,19 @@
     display: flex;
 }
 
-h2 {
-    font-size: $font-dieci * 4;
+h1, h2, h3, h4, h5, h6, p, span {
+
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
-h1, h3 {
-    font-size: $font-dieci * 3
+h2 {
+    font-size: $font-trentacinque + 1;
+}
+
+h1 {
+    font-size: $font-dieci * 3;
 }
 
 p {
-    font-size: $font-paragrafi;
+    font-size: $font-dieci * 2;
 }

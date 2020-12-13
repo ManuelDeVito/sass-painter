@@ -13,17 +13,27 @@
   display: flex;
 }
 
-h2 {
-  font-size: 40px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Hind Siliguri", sans-serif;
 }
 
-h1,
-h3 {
+h2 {
+  font-size: 36px;
+}
+
+h1 {
   font-size: 30px;
 }
 
 p {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 header {
@@ -226,12 +236,12 @@ footer {
 .contenitore-testo-software h3 {
   color: #FFFFFF;
   font-size: 23px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .contenitore-testo-software ul {
   list-style-type: none;
-  padding: 15px 0 20px;
+  padding: 10px 0 20px 5px;
 }
 
 .contenitore-testo-software ul li {
@@ -267,14 +277,13 @@ footer {
 .contenitore-testo-software .download-trial .download .for {
   display: block;
   text-transform: none;
-  margin-top: 5px;
   font-size: 16px;
 }
 
 .contenitore-testo-software .download-trial .icona-download i {
   position: relative;
-  top: 5px;
-  left: 8px;
+  top: 10px;
+  left: 15px;
   font-size: 30px;
 }
 
@@ -311,7 +320,7 @@ footer {
 }
 
 .contenitore-buy-now .load {
-  color: #4D4D4D;
+  color: #FFFFFF;
   font-size: 15px;
   text-transform: uppercase;
   display: block;
@@ -340,7 +349,7 @@ footer {
 }
 
 .contenitore-buy-now .contenitore-limited span {
-  font-size: 16px;
+  font-size: 18px;
   text-transform: none;
   color: #4D4D4D;
 }
@@ -388,14 +397,13 @@ footer {
 
 .contenitore-testo-img h2 {
   color: #FFFFFF;
-  font-size: 40px;
   margin: 20px 0 10px 0;
 }
 
 .contenitore-testo-img p {
-  font-size: 23px;
   margin: 20px 0 40px 0;
   color: #FFFFFF;
+  padding: 0px 90px;
 }
 
 .contenitore-testo-img .logo-test {
@@ -412,7 +420,7 @@ footer {
   font-size: 20px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .contenitore-img-donna {
@@ -431,8 +439,8 @@ footer {
   margin: 0 auto;
   left: 0;
   right: 0;
-  z-index: 1;
   bottom: 0;
+  z-index: 1;
 }
 
 .contenitore-img-donna .play {
@@ -452,32 +460,48 @@ footer {
 }
 
 .contenitore-aquila h2 {
-  font-size: 40px;
   padding-top: 100px;
 }
 
 .contenitore-aquila p {
-  font-size: 23px;
-  padding: 20px 70px;
+  padding: 15px 145px 20px;
 }
 
-.immagine-aquila .arrow {
-  position: relative;
-  bottom: 390px;
-  font-size: 40px;
+.contenitore-arrow-aquila {
+  display: flex;
 }
 
-.immagine-aquila .arrow-left {
-  right: 30px;
+.contenitore-arrow-aquila .contenitore-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.immagine-aquila .arrow-right {
-  left: 30px;
+.contenitore-arrow-aquila .contenitore-arrow .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #e74500;
+  border-radius: 50%;
 }
 
-.immagine-aquila img {
+.contenitore-arrow-aquila .contenitore-arrow .arrow i {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.contenitore-arrow-aquila .contenitore-arrow img {
   width: 90%;
-  margin: 80px 0 60px 0;
+}
+
+.contenitore-arrow-aquila .contenitore-arrow .arrow-left {
+  margin-right: 20px;
+}
+
+.contenitore-arrow-aquila .contenitore-arrow .arrow-right {
+  margin-left: 20px;
 }
 
 .contenitore-flexible {
@@ -494,7 +518,7 @@ footer {
 }
 
 .contenitore-flexible .contenitore-text-painting p {
-  padding: 20px 50px;
+  padding: 10px 130px 20px;
 }
 
 .contenitore-flexible .contenitore-text-painting img {
@@ -595,5 +619,55 @@ footer {
   bottom: 25px;
   width: 100%;
   text-align: center;
+}
+
+.sfondo-contenitore-city {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sfondo-contenitore-city .contenitore-sx-dx {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 130px;
+}
+
+.sfondo-contenitore-city .contenitore-sx-dx-generale {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.sfondo-contenitore-city .contenitore-sx-dx-generale p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.sfondo-contenitore-city .contenitore-sx-dx-generale p span {
+  color: #009CFF;
+}
+
+.sfondo-contenitore-city .sx {
+  padding: 40px 60px 80px;
+}
+
+.sfondo-contenitore-city .sx h3 {
+  margin: 20px 0 10px;
+  font-size: 28px;
+}
+
+.sfondo-contenitore-city .dx {
+  padding: 40px 55px 60px;
+}
+
+.sfondo-contenitore-city .dx h3 {
+  margin: 40px 0 10px;
+  font-size: 28px;
 }
 

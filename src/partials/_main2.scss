@@ -12,7 +12,7 @@
         }
 
         & p {
-            padding: $font-dieci * 2 $font-dieci * 5;
+            padding: $font-dieci $font-dieci * 13 $font-dieci * 2;
         }
         & img {
             width: 70%;
@@ -30,12 +30,12 @@
         color: $color-testo;
 
         & h3 {
-            font-size: 28px;
+            font-size: $font-venticinque + 3;
             padding-top: $font-dieci * 12;
         }
 
         & p {
-            padding: $font-dieci * 2 45px $font-dieci * 2 0;
+            padding: $font-dieci * 2 $font-trentacinque + 10 $font-dieci * 2 0;
 
         }
 
@@ -71,7 +71,7 @@
         color: $color-testo;
 
         & h3 {
-            font-size: 28px;
+            font-size: $font-venticinque + 3;
             padding-top: $font-dieci * 12;
         }
 
@@ -114,7 +114,7 @@
         }
 
         .text-img {
-            font-size: 23px;
+            font-size: $font-paragrafi;
             color: $color-testo;
             position: absolute;
             bottom: $font-venticinque;
@@ -124,4 +124,60 @@
 
         }
     }
+}
+
+.sfondo-contenitore-city {
+
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .contenitore-sx-dx {
+        display: flex;
+        justify-content: center;
+        padding: $font-dieci * 10 0 $font-dieci * 13;
+
+    }
+
+    .contenitore-sx-dx-generale {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-testo;
+        text-align: center;
+        margin: 0 $font-dieci * 2;
+
+        & p {
+            margin-bottom: $font-dieci * 3;
+            font-size: $font-diciotto;
+
+            & span {
+                color: $color-button;
+            }
+        }
+
+    }
+
+    .sx  {
+        padding: $font-dieci * 4 $font-dieci * 6 $font-dieci * 8;
+
+        & h3 {
+            margin: $font-dieci * 2 0 $font-dieci;
+            font-size: $font-venticinque + 3;
+        }
+    }
+
+    .dx {
+
+        padding: $font-dieci * 4 55px $font-dieci * 6;
+
+        & h3 {
+            margin: $font-dieci * 4 0 $font-dieci;
+            font-size: $font-venticinque + 3;
+        }
+    }
+
 }
